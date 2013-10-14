@@ -1,3 +1,3 @@
 CodeJam
 =======
-Codejam Exercises
+Codejam Exercises Solutions
