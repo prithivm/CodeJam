@@ -3,7 +3,7 @@ Created on Oct 9, 2013
 
 @author: mohaprit
 '''
-f = open('CSmall','r')
+f = open('small','r')
 out = open('out','w')
 t = int(f.readline())
 for i in range(t):
@@ -21,11 +21,12 @@ for i in range(t):
             cnt += 1
     output="Case #"+str(i+1)+": "+str(cnt)+'\n'
     out.write(output)
+    print "Done"
     
     
 #ANOTHER SOLUTION
 
-
+'''
 def read_N_Lines(f,n):
     lines = []
     for x in range(0,n):
@@ -47,4 +48,4 @@ while case > 0:
     print cnt
     case -= 1
              
-    
+'''   
